@@ -1,0 +1,23 @@
+ambientContribMaximum   Ambient contribution by maximum scaling
+ambientContribNegative
+                        Ambient contribution from negative controls
+ambientContribSparse    Ambient contribution by assuming sparsity
+ambientProfileBimodal   Ambient profile from bimodality
+ambientProfileEmpty     Estimate the ambient profile from empty
+                        droplets
+barcodeRanks            Calculate barcode ranks
+chimericDrops           Remove chimeric molecules
+cleanTagCounts          Clean a tag-based dataset
+defaultDrops            Call cells from their total number of UMIs
+downsampleReads         Downsample reads in a 10X Genomics dataset
+emptyDrops              Identify empty droplets
+emptyDropsCellRanger    CellRanger's emptyDrops variant
+encodeSequences         Encode nucleotide sequences
+get10xMolInfoStats      Get 10x cell statistics
+hashedDrops             Demultiplex cell hashing data
+makeCountMatrix         Make a count matrix
+read10xCounts           Load data from a 10X Genomics experiment
+read10xMolInfo          Read the 10X molecule information file
+removeAmbience          Remove the ambient profile
+swappedDrops            Clean barcode-swapped droplet data
+write10xCounts          Write count data in the 10x format

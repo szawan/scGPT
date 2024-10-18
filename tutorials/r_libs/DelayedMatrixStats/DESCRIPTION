@@ -1,0 +1,41 @@
+Package: DelayedMatrixStats
+Type: Package
+Title: Functions that Apply to Rows and Columns of 'DelayedMatrix'
+        Objects
+Version: 1.16.0
+Date: 2021-08-26
+Authors@R: c(person("Peter", "Hickey", role = c("aut", "cre"),
+    email = "peter.hickey@gmail.com"),
+    person("Hervé", "Pagès", role = "ctb", email = "hpages.on.github@gmail.com"),
+    person("Aaron", "Lun", role = "ctb", email = "infinite.monkeys.with.keyboards@gmail.com"))
+Description: A port of the 'matrixStats' API for use with DelayedMatrix objects 
+  from the 'DelayedArray' package. High-performing functions operating on rows 
+  and columns of DelayedMatrix objects, e.g. col / rowMedians(), 
+  col / rowRanks(), and col / rowSds(). Functions optimized per data type and 
+  for subsetted calculations such that both memory usage and processing time is 
+  minimized.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: MatrixGenerics (>= 1.5.3), DelayedArray (>= 0.17.6)
+Imports: methods, matrixStats (>= 0.60.0), sparseMatrixStats, Matrix,
+        S4Vectors (>= 0.17.5), IRanges (>= 2.25.10)
+Suggests: testthat, knitr, rmarkdown, covr, BiocStyle, microbenchmark,
+        profmem, HDF5Array
+VignetteBuilder: knitr
+URL: https://github.com/PeteHaitch/DelayedMatrixStats
+BugReports: https://github.com/PeteHaitch/DelayedMatrixStats/issues
+biocViews: Infrastructure, DataRepresentation, Software
+git_url: https://git.bioconductor.org/packages/DelayedMatrixStats
+git_branch: RELEASE_3_14
+git_last_commit: d44a3d7
+git_last_commit_date: 2021-10-26
+Date/Publication: 2021-10-26
+NeedsCompilation: no
+Packaged: 2021-10-26 21:18:09 UTC; biocbuild
+Author: Peter Hickey [aut, cre],
+  Hervé Pagès [ctb],
+  Aaron Lun [ctb]
+Maintainer: Peter Hickey <peter.hickey@gmail.com>
+Built: R 4.1.2; ; 2024-10-09 18:51:26 UTC; unix

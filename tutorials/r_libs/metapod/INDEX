@@ -1,0 +1,31 @@
+averageGroupedStats     Average grouped statistics
+averageParallelStats    Average parallel statistics
+combineGroupedPValues   Combine grouped p-values
+combineParallelPValues
+                        Combine parallel p-values
+countGroupedDirection   Count directions of grouped tests
+countParallelDirection
+                        Count directions of parallel tests
+groupedBerger           Combine grouped p-values with Berger's IUT
+groupedFisher           Combine grouped p-values with Fisher's method
+groupedHolmMin          Combine grouped p-values with the minimum Holm
+                        approach
+groupedPearson          Combine grouped p-values with Pearson's method
+groupedSimes            Combine grouped p-values with Simes' method
+groupedStouffer         Combine grouped p-values with Stouffer's
+                        Z-score method
+groupedWilkinson        Combine grouped p-values with Wilkinson's
+                        method
+parallelBerger          Combine parallel p-values with Berger's IUT
+parallelFisher          Combine parallel p-values with Fisher's method
+parallelHolmMin         Combine parallel p-values with the minimum Holm
+                        approach
+parallelPearson         Combine parallel p-values with Pearson's method
+parallelSimes           Combine parallel p-values with Simes' method
+parallelStouffer        Combine parallel p-values with Stouffer's
+                        Z-score
+parallelWilkinson       Combine p-values with Wilkinson's method
+summarizeGroupedDirection
+                        Summarize overall direction of grouped tests
+summarizeParallelDirection
+                        Summarize overall direction of parallel tests

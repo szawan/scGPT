@@ -1,0 +1,29 @@
+Package: ScaledMatrix
+Version: 1.2.0
+Date: 2021-01-13
+Title: Creating a DelayedMatrix of Scaled and Centered Values
+Authors@R: person("Aaron", "Lun", role=c("aut", "cre", "cph"),
+        email="infinite.monkeys.with.keyboards@gmail.com")
+Imports: methods, Matrix, S4Vectors, DelayedArray
+Suggests: testthat, BiocStyle, knitr, rmarkdown, BiocSingular
+biocViews: Software, DataRepresentation
+Description: 
+    Provides delayed computation of a matrix of scaled and centered values.
+    The result is equivalent to using the scale() function but avoids explicit 
+    realization of a dense matrix during block processing. This permits greater
+    efficiency in common operations, most notably matrix multiplication.
+License: GPL-3
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
+BugReports: https://github.com/LTLA/ScaledMatrix/issues
+URL: https://github.com/LTLA/ScaledMatrix
+git_url: https://git.bioconductor.org/packages/ScaledMatrix
+git_branch: RELEASE_3_14
+git_last_commit: d0573e1
+git_last_commit_date: 2021-10-26
+Date/Publication: 2021-10-26
+NeedsCompilation: no
+Packaged: 2021-10-26 22:42:10 UTC; biocbuild
+Author: Aaron Lun [aut, cre, cph]
+Maintainer: Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>
+Built: R 4.1.2; ; 2024-10-09 18:50:06 UTC; unix

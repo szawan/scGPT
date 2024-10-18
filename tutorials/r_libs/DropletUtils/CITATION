@@ -1,0 +1,35 @@
+bibentry(
+    bibtype = "Article",
+    title = "EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data",
+    author = c(
+        person(c("Aaron", "T.", "L."), "Lun"),
+        person("Samantha", "Riesenfeld"),
+        person("Tallulah", "Andrews"),
+        person("The Phuong", "Dao"),
+        person("Tomas", "Gomes"),
+        person("participants in the 1st Human Cell Atlas Jamboree"),
+        person(c("John", "C."), "Marioni")),
+    journal = "Genome Biol.",
+    year = "2019",
+    volume = 20,
+    pages = 63,
+    doi = "10.1186/s13059-019-1662-y"
+)
+
+bibentry(
+    bibtype = "Article",
+    title = "Detection and removal of barcode swapping in single-cell RNA-seq data",
+    author = c(
+        person(c("Jonathan", "A."), "Griffiths"),
+        person(c("Arianne", "C."), "Richard"),
+        person("Karsten", "Bach"),
+        person(c("Aaron", "T.", "L."), "Lun"),
+        person(c("John", "C."), "Marioni")),
+    journal = "Nat. Commun.",
+    year = "2018", 
+    volume = 9,
+    number = 1,
+    pages = 2667,
+    doi = "10.1038/s41467-018-05083-x"
+)
+

@@ -1,0 +1,44 @@
+Package: DropletUtils
+Version: 1.14.2
+Date: 2021-01-07
+Title: Utilities for Handling Single-Cell Droplet Data
+Authors@R: c(
+    person("Aaron", "Lun", role = "aut"),
+    person("Jonathan", "Griffiths", role=c("ctb", "cre"), email = "jonathan.griffiths.94@gmail.com"),
+    person("Davis", "McCarthy", role="ctb"),
+    person("Dongze", "He", role="ctb"),
+    person("Rob", "Patro", role="ctb"))
+Depends: SingleCellExperiment
+Imports: utils, stats, methods, Matrix, Rcpp, BiocGenerics, S4Vectors,
+        IRanges, GenomicRanges, SummarizedExperiment, BiocParallel,
+        DelayedArray, DelayedMatrixStats, HDF5Array, rhdf5, edgeR,
+        R.utils, dqrng, beachmat, scuttle
+Suggests: testthat, knitr, BiocStyle, rmarkdown, jsonlite,
+        DropletTestFiles
+biocViews: ImmunoOncology, SingleCell, Sequencing, RNASeq,
+        GeneExpression, Transcriptomics, DataImport, Coverage
+Description: 
+    Provides a number of utility functions for handling single-cell 
+    (RNA-seq) data from droplet technologies such as 10X Genomics. This 
+    includes data loading from count matrices or molecule information files, 
+    identification of cells from empty droplets, removal of barcode-swapped 
+    pseudo-cells, and downsampling of the count matrix.
+License: GPL-3
+NeedsCompilation: yes
+VignetteBuilder: knitr
+LinkingTo: Rcpp, beachmat, Rhdf5lib, BH, dqrng, scuttle
+SystemRequirements: C++11, GNU make
+RoxygenNote: 7.1.2
+git_url: https://git.bioconductor.org/packages/DropletUtils
+git_branch: RELEASE_3_14
+git_last_commit: 945504d
+git_last_commit_date: 2022-01-08
+Date/Publication: 2022-01-09
+Packaged: 2022-01-09 09:17:51 UTC; biocbuild
+Author: Aaron Lun [aut],
+  Jonathan Griffiths [ctb, cre],
+  Davis McCarthy [ctb],
+  Dongze He [ctb],
+  Rob Patro [ctb]
+Maintainer: Jonathan Griffiths <jonathan.griffiths.94@gmail.com>
+Built: R 4.1.2; x86_64-pc-linux-gnu; 2024-10-09 18:59:52 UTC; unix

@@ -1,0 +1,32 @@
+Package: metapod
+Version: 1.2.0
+Date: 2021-05-12
+Title: Meta-Analyses on P-Values of Differential Analyses
+Authors@R: 
+    person("Aaron", "Lun", role=c("aut", "cre"), email = "infinite.monkeys.with.keyboards@gmail.com")
+Imports: Rcpp
+Suggests: testthat, knitr, BiocStyle, rmarkdown
+LinkingTo: Rcpp
+biocViews: MultipleComparison, DifferentialPeakCalling
+Description: 
+    Implements a variety of methods for combining p-values in differential
+    analyses of genome-scale datasets. Functions can combine p-values across
+    different tests in the same analysis (e.g., genomic windows in ChIP-seq,
+    exons in RNA-seq) or for corresponding tests across separate analyses
+    (e.g., replicated comparisons, effect of different treatment conditions).
+    Support is provided for handling log-transformed input p-values, missing
+    values and weighting where appropriate. 
+License: GPL-3
+NeedsCompilation: yes
+SystemRequirements: C++11
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
+git_url: https://git.bioconductor.org/packages/metapod
+git_branch: RELEASE_3_14
+git_last_commit: 0da37b6
+git_last_commit_date: 2021-10-26
+Date/Publication: 2021-10-26
+Packaged: 2021-10-26 21:51:07 UTC; biocbuild
+Author: Aaron Lun [aut, cre]
+Maintainer: Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>
+Built: R 4.1.2; x86_64-pc-linux-gnu; 2024-10-09 18:45:46 UTC; unix
